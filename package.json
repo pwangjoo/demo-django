@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "dev": "nodemon --exec python manage.py runserver"
+    "start": "nodemon --exec python manage.py runserver"
   }
 }
