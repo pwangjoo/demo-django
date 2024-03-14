@@ -35,13 +35,13 @@ Auto activation on VSCode
 ### 2. Easy start with NodeMon
 1. Install NodeMon.
 1. Add `package.json`.
-```json
-{
-  "scripts": {
-    "start": "nodemon --exec python manage.py runserver"
+  ```json
+  {
+    "scripts": {
+      "start": "nodemon --exec python manage.py runserver"
+    }
   }
-}
-```
+  ```
 
 ## Running
 ```zsh
