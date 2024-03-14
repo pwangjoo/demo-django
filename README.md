@@ -3,7 +3,7 @@ Django starting guide for MacOS (M1).
 
 ### Prep
 1. Usage of `pyenv`
-  * 내장 Python을 별도의 목적으로 사용하면, MacOS의 성능이 저하될 수 있기 때문에, 별도의 Python 설치 / 사용을 권장함.
+    * 내장 Python을 별도의 목적으로 사용하면, MacOS의 성능이 저하될 수 있기 때문에, 별도의 Python 설치 / 사용을 권장함.
 ```zsh
 % brew install pyenv #Homebrew installation
 % pyenv versions #check installed version & current version
@@ -19,8 +19,8 @@ Django starting guide for MacOS (M1).
 (.venv) % deactivate #deactivate
 ```
 * Auto activation on VSCode
-  1. Install VSCode Python package.
-  1. `cmd`+`shift`+`p` > select Python: Select Interpreter
+    1. Install VSCode Python package.
+    1. `cmd`+`shift`+`p` > select Python: Select Interpreter
 
 ### Installation
 ```zsh
@@ -34,15 +34,15 @@ Django starting guide for MacOS (M1).
 (.venv) % python manage.py runserver #run server
 ```
 1. Easy start with NodeMon
-  1. Install NodeMon.
-  1. Add `package.json`.
-  ```json
-  {
-    "scripts": {
-      "start": "nodemon --exec python manage.py runserver"
+    1. Install NodeMon.
+    1. Add `package.json`.
+    ```json
+    {
+      "scripts": {
+        "start": "nodemon --exec python manage.py runserver"
+      }
     }
-  }
-  ```
+    ```
 
 
 ### Running
